@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop Down Button</title>
+</head>
+<body>
+
+    <style>
+
+      .fruits-div{
+        display: inline-block;
+      }
+
+      button{
+        width: 100px;
+        height: 35px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      button:hover{
+        background-color: blueviolet;
+      }
+
+      a{
+        text-decoration: none;
+        display: block;
+        color: white;
+        border: 2px solid;
+        margin: 10px;
+      }
+
+      .fruits-list{
+        width: 100px;
+        background-color: rgb(94, 92, 92);
+        display: none;
+      }
+
+      a:hover{
+        background-color: black;
+      }
+
+      .fruits-div:hover .fruits-list{
+        display: block;
+      }
+    </style>
+
+  <div class="fruits-div">
+    <button>fruits</button>
+    <div class="fruits-list">
+      <a href="">apple</a>
+      <a href="">banana</a>
+      <a href="">mango</a>
+    </div>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam, dicta alias repellendus commodi quo assumenda a amet asperiores eius laborum ipsum eaque molestias totam, in voluptas repellat temporibus provident.</p>
+</body>
+</html>

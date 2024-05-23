@@ -1,0 +1,10 @@
+.login-container{
+  background-color: pink;
+  height: 300px;
+  width: 400px;
+  padding: 70px;
+}
+
+.form-container{
+  text-align: center;
+}

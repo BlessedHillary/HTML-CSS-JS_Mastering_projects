@@ -1,0 +1,39 @@
+.search{
+  margin-bottom: 15px;
+  width: 37em;
+  height: 2.5em;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+.active-profile{
+  display: inline-block;
+  width: 70px;
+}
+
+.active-image{
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+
+.Inbox{
+  display: inline-block;
+  border: solid;
+  border-radius: 10px;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  background-color: rgb(97, 151, 238);
+  color: rgba(72, 6, 177, 0.608);
+  border-style: none;
+}
+
+#inbox{
+  margin-right: 7em;
+  margin-left: 3em;
+}
+
+.active-name{
+  color: white;
+}

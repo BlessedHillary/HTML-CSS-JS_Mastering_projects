@@ -1,0 +1,33 @@
+.search-container{
+  background-color: black;
+  width: 500px;
+  height: 400px;
+}
+
+.search-button-container{
+  text-align: center;
+  padding-top: 150px;
+}
+
+input{
+height: 40px;
+width: 250px;
+background-color: rgba(45, 42, 42, 0.859);
+color: white;
+border: 1px solid rgb(158, 234, 44);
+border-radius: 8px 0px 0px 8px;
+}
+
+input:hover{
+  border: solid 2.5px rgb(158, 234, 44);
+}
+
+
+button{
+height: 40px;
+width: 100px;
+background-color: rgba(45, 42, 42, 0.859);
+color: white;
+border: 1px solid rgb(158, 147, 127);
+border-radius: 0px 8px 8px 0px;
+}
